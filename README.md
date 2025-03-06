@@ -69,7 +69,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=SKgain&show_icons=true&locale=en&layout=compact&hide=html&langs_count=10" alt="Saikat Kumar Gain - Top Languages" width="400" height="200" />
-  <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&locale=en" alt="Saikat Kumar Gain - GitHub Stats" width="400" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&locale=en" alt="Saikat Kumar Gain - GitHub Stats" width="350" height="200" />
 </p>
 
 ---

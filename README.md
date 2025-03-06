@@ -1,7 +1,7 @@
 <h1 align="center">Hello, This is Saikat Kumar Gain</h1>
 <h3 align="center">Programmer and Developer</h3>
 
-<img align="right" alt="coding" width="400" src="https://media.licdn.com/dms/image/D4E12AQEmgjKyIlM3GQ/article-cover_image-shrink_600_2000/0/1700126803919?e=2147483647&v=beta&t=IUVmZQGZdhjQAwgj4WM0chZgnofIFeYpivGDv2yl9y8">
+<img align="right" alt="coding" width="400" src="[https://media.licdn.com/dms/image/D4E12AQEmgjKyIlM3GQ/article-cover_image-shrink_600_2000/0/1700126803919?e=2147483647&v=beta&t=IUVmZQGZdhjQAwgj4WM0chZgnofIFeYpivGDv2yl9y8](https://img.freepik.com/premium-vector/boy-is-sitting-desk-with-laptop-word-code-it_1177960-38395.jpg?semt=ais_hybrid)">
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=SKgain&label=Profile%20views&color=0e75b6&style=flat" alt="Saikat Kumar Gain" /> 

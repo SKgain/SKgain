@@ -47,7 +47,7 @@
 
 ---
 
-### 📊 My GitHub Stats & Recent Activity
+### 📊 My GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Saikat's GitHub Stats" width="49%"/>
@@ -56,12 +56,10 @@
 
 ---
 
-### 🏆 GitHub Trophies
+### 🚀 My Recent Activity
+---
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SKgain&theme=tokyonight&row=1&column=7" alt="Trophies"/>
-</p>
-
+### 📝 My Latest Blog Posts
 ---
 
 ### 🤝 Connect with Me

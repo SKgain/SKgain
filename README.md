@@ -24,7 +24,6 @@
 ---
 
 ### 🛠️ My Tech Stack
-
 <p align="center">
   <b>Backend</b><br>
   <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
@@ -47,23 +46,29 @@
 
 ---
 
-### 📊 My GitHub Stats
+### 📊 My GitHub Stats & WakaTime
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Saikat's GitHub Stats" width="49%"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&langs_count=8&theme=tokyonight" alt="Top Languages" width="49%"/>
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YourWakaTimeUsername&layout=compact&theme=tokyonight" alt="WakaTime Stats"/>
 </p>
 
 ---
 
-### 🚀 My Recent Activity
+### 🚀 My Recent Activity & Blog Posts
 ---
 
-### 📝 My Latest Blog Posts
+### 🐍 My Contribution Graph
+
+<p align="center">
+  <img src="https://github.com/SKgain/SKgain/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+</p>
+
 ---
 
 ### 🤝 Connect with Me
-
 <p align="center">
   <a href="https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/" target="blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>

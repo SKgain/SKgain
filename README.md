@@ -6,7 +6,7 @@
   Hi there, I'm Saikat Kumar Gain 👋
 </h1>
 <h3 align="center">
-  A passionate Java Full-Stack Developer from Dhaka, Bangladesh 🇧🇩
+  A passionate Java Developer from Dhaka, Bangladesh 🇧🇩
 </h3>
 
 ---

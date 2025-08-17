@@ -52,7 +52,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Saikat's GitHub Stats" width="49%"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&langs_count=8&theme=tokyonight" alt="Top Languages" width="49%"/>
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YourWakaTimeUsername&layout=compact&theme=tokyonight" alt="WakaTime Stats"/>
+<!--   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YourWakaTimeUsername&layout=compact&theme=tokyonight" alt="WakaTime Stats"/> -->
 </p>
 
 ---

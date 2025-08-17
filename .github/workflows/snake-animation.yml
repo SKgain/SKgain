@@ -3,23 +3,26 @@ name: Generate Snake Animation
 on:
   schedule:
     # Runs every 12 hours
-    - cron: '0 */12 * * *'
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
+
       - uses: Platane/snk@v3
         with:
           github_user_name: SKgain
-          # List of files to generate
-          # a snake game from a github user's contributions graph, output a svg animation at <svg_out_path>
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push snake animation
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist

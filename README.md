@@ -22,7 +22,7 @@
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px" height="32px"> About Me
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px" height="32px"> System.out.println("About Me");
 
 ```typescript
 const Saikat = {
@@ -66,33 +66,59 @@ const Saikat = {
 
 <br>
 
-## 🛠️ Tech Arsenal
+## ⚙️ Tech Arsenal
 
 <div align="center">
 
-### 💻 Core Stack
+### 💻 Core Technology Stack
 
 <table>
   <tr>
     <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=java" width="65px" alt="Java"/>
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
       <br/><strong>Java</strong>
     </td>
     <td align="center" width="140" height="112.43">
       <img src="https://skillicons.dev/icons?i=spring" width="65px" alt="Spring"/>
-      <br/><strong>Spring</strong>
+      <br/><strong>Spring Boot</strong>
     </td>
     <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=neo4j" width="65px" alt="Neo4j"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original.svg" width="65px" alt="Neo4j"/>
       <br/><strong>Neo4j</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
+      <br/><strong>REST API</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="65" height="65" />
+      <br/><strong>GraphQL</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+      <br/><strong>Docker</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
+      <br/><strong>Kubernetes</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+      <br/><strong>React</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+      <br/><strong>JavaScript</strong>
+    </td>
+    <td align="center" width="140" height="112.43">
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
+      <br/><strong>MySQL</strong>
     </td>
     <td align="center" width="140" height="112.43">
       <img src="https://skillicons.dev/icons?i=postgres" width="65px" alt="PostgreSQL"/>
       <br/><strong>PostgreSQL</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=mysql" width="65px" alt="MySQL"/>
-      <br/><strong>MySQL</strong>
     </td>
     <td align="center" width="140" height="112.43">
       <img src="https://skillicons.dev/icons?i=mongodb" width="65px" alt="MongoDB"/>
@@ -102,40 +128,23 @@ const Saikat = {
       <img src="https://skillicons.dev/icons?i=redis" width="65px" alt="Redis"/>
       <br/><strong>Redis</strong>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=react" width="65px" alt="React"/>
-      <br/><strong>React</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=js" width="65px" alt="JavaScript"/>
-      <br/><strong>JavaScript</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=docker" width="65px" alt="Docker"/>
-      <br/><strong>Docker</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=kubernetes" width="65px" alt="Kubernetes"/>
-      <br/><strong>Kubernetes</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=git" width="65px" alt="Git"/>
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="Git" width="65" height="65" />
       <br/><strong>Git</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=postman" width="65px" alt="Postman"/>
-      <br/><strong>Postman</strong>
-    </td>
-    <td align="center" width="140" height="112.43">
-      <img src="https://skillicons.dev/icons?i=maven" width="65px" alt="Maven"/>
-      <br/><strong>Maven</strong>
     </td>
   </tr>
 </table>
 
-### 🌐 Frontend & Design
+### 🔧 Development Tools & Technologies
+
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+### 🎨 Frontend & Design
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -143,7 +152,7 @@ const Saikat = {
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-### 💾 Languages
+### 💾 Programming Languages
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -158,39 +167,27 @@ const Saikat = {
 
 <br>
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics Dashboard
 
 <div align="center">
   
-  <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SKgain&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" width="49%" alt="GitHub Streak"/>
-  
-</div>
-
-<div align="center">
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" width="49%" alt="Top Languages"/>
-  <img src="https://github-contributor-stats.vercel.app/api?username=SKgain&limit=5&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&combine_all_yearly_contributions=true" width="49%" alt="Contribution Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html&card_width=445" width="100%" alt="Top Languages"/>
   
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Graph&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SKgain&theme=radical" width="98%" alt="Contribution Details"/>
+  
 </div>
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<br>
-
-## 🏆 Achievements
-
 <div align="center">
   
-  <img src="https://github-profile-trophy.vercel.app/?username=SKgain&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" width="98%" alt="GitHub Trophies"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Activity%20Graph&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&area_color=00d9ff" width="98%" alt="Contribution Graph"/>
   
 </div>
 
@@ -200,15 +197,23 @@ const Saikat = {
 
 <br>
 
-## 🐍 Contribution Snake
+## 🏆 GitHub Achievements
 
 <div align="center">
   
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SKgain/SKgain/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SKgain/SKgain/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SKgain/SKgain/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://github-profile-trophy.vercel.app/?username=SKgain&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15&title=Commits,Repositories,Stars,Followers,PullRequest,Issues,Reviews" width="98%" alt="GitHub Trophies"/>
+  
+</div>
+
+<br>
+
+<div align="center">
+  
+  ### 📈 Contribution Metrics
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SKgain&theme=radical" width="32%" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SKgain&theme=radical&utcOffset=6" width="32%" alt="Productive Time"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SKgain&theme=radical" width="32%" alt="Repos per Language"/>
   
 </div>
 
@@ -218,7 +223,7 @@ const Saikat = {
 
 <br>
 
-## 🎯 Competitive Programming
+## 🎯 Competitive Programming Profiles
 
 <div align="center">
   
@@ -230,6 +235,9 @@ const Saikat = {
   </a>
   <a href="https://www.hackerrank.com/YourUsername">
     <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1a1b27" height="35" alt="HackerRank"/>
+  </a>
+  <a href="https://www.codechef.com/users/YourUsername">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1b27" height="35" alt="CodeChef"/>
   </a>
   
 </div>
@@ -259,6 +267,9 @@ const Saikat = {
   <a href="https://twitter.com/YourTwitter">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1a1b27" height="35" alt="Twitter"/>
   </a>
+  <a href="https://discord.com/users/YourDiscordID">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1b27" height="35" alt="Discord"/>
+  </a>
   
 </div>
 
@@ -266,9 +277,19 @@ const Saikat = {
 
 <div align="center">
   
-  ### 💡 Random Dev Quote
+  ### 💡 Dev Wisdom
   
-  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House)
+  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=First,%20solve%20the%20problem.%20Then,%20write%20the%20code.&author=John%20Johnson)
+  
+</div>
+
+<br>
+
+<div align="center">
+  
+  ### 📫 Let's Build Something Amazing Together!
+  
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Open+to+collaborations+and+opportunities!+%F0%9F%A4%9D;Let's+connect+and+innovate!+%F0%9F%9A%80;Always+learning%2C+always+growing!+%F0%9F%8C%B1" alt="Footer Text"/>
   
 </div>
 
@@ -280,4 +301,6 @@ const Saikat = {
   
   ### ⭐️ Show some love by starring repositories you find interesting!
   
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+%F0%9F%98%8A;Let's+build+something+amazing+together!+%F0%9F%9A%80;Open+to+collaborations+and+new+opportunities!+%F0%9F%92%BC" alt="Footer Text"/>
+  ![Made with ❤️ by Saikat Kumar Gain](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge)
+  
+</div>

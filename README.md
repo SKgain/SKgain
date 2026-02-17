@@ -21,7 +21,6 @@
 
 ---
 
-
 ## 👨‍💻 About Me
 
 ```java
@@ -41,6 +40,8 @@ public class Developer {
                                    "MongoDB", "Redis"),
         "architecture", Arrays.asList("Microservices", "Event-Driven", 
                                       "RESTful APIs", "GraphQL"),
+        "frontend", Arrays.asList("JavaScript", "HTML5", "CSS3", 
+                                  "Bootstrap", "Tailwind CSS"),
         "messaging", Arrays.asList("Kafka"),
         "cloud", Arrays.asList("Firebase")
     );
@@ -61,227 +62,138 @@ public class Developer {
 
 </div>
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-### Backend & Databases
+### Backend Development
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-<table>
-  <tr>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="50" height="50" />
-      <br><sub><b>Java</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=spring" width="50px" alt="Spring"/>
-      <br><sub><b>Spring Boot</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=postgres" width="50px" alt="PostgreSQL"/>
-      <br><sub><b>PostgreSQL</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="50" height="50" />
-      <br><sub><b>MySQL</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="50px" alt="MongoDB"/>
-      <br><sub><b>MongoDB</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original.svg" width="50px" alt="Neo4j"/>
-      <br><sub><b>Neo4j</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=redis" width="50px" alt="Redis"/>
-      <br><sub><b>Redis</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=kafka" width="50px" alt="Kafka"/>
-      <br><sub><b>Kafka</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="50" height="50" />
-      <br><sub><b>REST API</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="50" height="50" />
-      <br><sub><b>GraphQL</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=firebase" width="50px" alt="Firebase"/>
-      <br><sub><b>Firebase</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="50" height="50" />
-      <br><sub><b>Docker</b></sub>
-    </td>
-  </tr>
-</table>
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### Frontend & Design
+### Architecture & APIs
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-1572B6?style=for-the-badge&logo=moleculer&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 
-<table>
-  <tr>
-    <td align="center" width="120" height="100">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="50" height="50" />
-      <br><sub><b>JavaScript</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=html" width="50px" alt="HTML5"/>
-      <br><sub><b>HTML5</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=css" width="50px" alt="CSS3"/>
-      <br><sub><b>CSS3</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=bootstrap" width="50px" alt="Bootstrap"/>
-      <br><sub><b>Bootstrap</b></sub>
-    </td>
-    <td align="center" width="120" height="100">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="50px" alt="Tailwind"/>
-      <br><sub><b>Tailwind CSS</b></sub>
-    </td>
-  </tr>
-</table>
+### Frontend Development
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Development Tools
-
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Programming Languages
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 📊 GitHub Statistics
 
 <div align="center">
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4A90E2&icon_color=4A90E2&text_color=c9d1d9" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SKgain&theme=tokyonight&hide_border=true&background=0d1117&ring=4A90E2&fire=4A90E2&currStreakLabel=4A90E2" width="49%" alt="GitHub Streak"/>
-  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=SKgain&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
 </div>
 
-<br>
+<br/>
 
 <div align="center">
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4A90E2&text_color=c9d1d9&langs_count=8&hide=jupyter%20notebook" width="49%" alt="Top Languages"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SKgain&theme=tokyonight&utcOffset=6" width="49%" alt="Productive Time"/>
-  
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&hide=jupyter%20notebook" alt="Top Languages"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SKgain&theme=github_dark&utcOffset=6" alt="Productive Time"/>
 </div>
 
-<br>
+<br/>
 
 <div align="center">
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Graph&bg_color=0d1117&color=4A90E2&line=4A90E2&point=ffffff&area=true&hide_border=true&area_color=4A90E2" width="98%" alt="Contribution Graph"/>
-  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
 </div>
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 🏆 GitHub Achievements
 
 <div align="center">
-  
-  <img src="https://github-profile-trophy.vercel.app/?username=SKgain&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="98%" alt="GitHub Trophies"/>
-  
+  <img src="https://github-profile-trophy.vercel.app/?username=SKgain&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="98%" alt="GitHub Trophies"/>
 </div>
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 💻 Competitive Programming
 
 <div align="center">
   
-  <a href="https://codeforces.com/profile/saikatgain630">
-    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="32" alt="Codeforces"/>
-  </a>
-  <a href="https://leetcode.com/u/skgain/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="32" alt="LeetCode"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/saikatgain_cse">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" height="32" alt="HackerRank"/>
-  </a>
-  
+| Platform | Profile | Status |
+|----------|---------|--------|
+| 🔵 **Codeforces** | [saikatgain630](https://codeforces.com/profile/saikatgain630) | Active |
+| 🟠 **LeetCode** | [skgain](https://leetcode.com/u/skgain/) | Solving |
+| 🟢 **HackerRank** | [saikatgain_cse](https://www.hackerrank.com/profile/saikatgain_cse) | Active |
+
 </div>
 
-<br>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 🤝 Let's Connect
 
 <div align="center">
-  
-  <a href="https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:saikatgain.cse@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email"/>
-  </a>
-  <a href="https://www.facebook.com/Saikat.Gain.09/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="32" alt="Facebook"/>
-  </a>
-  <a href="https://github.com/SKgain">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub"/>
-  </a>
-  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saikatgain.cse@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/Saikat.Gain.09/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SKgain)
+
+<br/>
+
+### 💬 Open to Collaborate
+
+I'm always interested in working on exciting projects and connecting with fellow developers!  
+Feel free to reach out for collaborations, discussions, or just to say hi! 👋
+
 </div>
 
-<br>
+---
 
 <div align="center">
-  
-  ### 💭 Random Dev Quote
-  
-  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House)
-  
-</div>
 
-<br>
+### 💭 Dev Wisdom
 
-<div align="center">
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1000&color=4A90E2&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+%F0%9F%91%8B;Let's+build+something+amazing!+%F0%9F%9A%80;Open+to+collaboration!+%F0%9F%A4%9D" alt="Footer Text"/>
-  
-</div>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First,%20solve%20the%20problem.%20Then,%20write%20the%20code.&author=John%20Johnson" alt="Dev Quote"/>
 
-<br>
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+%F0%9F%91%8B;Let's+build+something+amazing+together!+%F0%9F%9A%80;Open+to+collaboration+and+new+opportunities!+%F0%9F%A4%9D" alt="Footer"/>
 
-<div align="center">
-  
-  **⭐ Show some love by starring repositories you find interesting!**
-  
-  ![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Saikat%20Kumar%20Gain-red?style=flat-square)
-  
+<br/>
+
+**⭐ If you find my work interesting, consider starring my repositories!**
+
+<br/>
+
+<sub>Made with ❤️ by Saikat Kumar Gain</sub>
+
 </div>

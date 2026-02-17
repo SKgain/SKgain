@@ -71,18 +71,13 @@ public class SaikatKumarGain implements Developer, ProblemSolver {
 
 ### 🎯 Current Mission
 
-```yaml
-workflow:
- building:
-  "Reactive microservices with Spring WebFlux & Neo4j"
- learning:
-  "Advanced system design & distributed architectures"
- exploring:
-  "Event-driven systems with Kafka"
- crafting:
-  "Clean & scalable backend solutions"
- expertise:
-  "Java, Spring Boot, Databases, System Design"
+```
+Workflow:
+ building:"Reactive microservices with Spring WebFlux & Neo4j"
+ learning:"Advanced system design & distributed architectures"
+ exploring:"Event-driven systems with Kafka"
+ crafting:"Clean & scalable backend solutions"
+ expertise:"Java, Spring Boot, Databases, System Design"
 ```
 
 </div>
@@ -357,22 +352,6 @@ devops:
 <a href="https://github.com/SKgain">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
-
-<br/><br/>
-
-```json
-{
-  "openFor": {
-    "projects": "Exciting collaborations",
-    "openSource": "Meaningful contributions",
-    "discussions": "Tech & system design",
-    "opportunities": "Full-time & freelance"
-  },
-  "response_time": "< 24 hours",
-  "availability": "Always open to connect! 👋"
-}
-```
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">

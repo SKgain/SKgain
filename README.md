@@ -24,30 +24,46 @@
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> About Me
 
 ```java
-public class Developer {
-    private String name = "Saikat Kumar Gain";
-    private String location = "Dhaka, Bangladesh 🇧🇩";
-    private String role = "Full-Stack Developer | Backend Specialist";
+@Profile("developer")
+@Component
+public class SaikatKumarGain implements Developer, ProblemSolver {
     
-    private List<String> languages = Arrays.asList(
+    @Value("${developer.name}")
+    private final String name = "Saikat Kumar Gain";
+    
+    @Value("${developer.location}")
+    private final String location = "Dhaka, Bangladesh 🇧🇩";
+    
+    @Value("${developer.role}")
+    private final String role = "Full-Stack Developer | Backend Specialist";
+    
+    private final List<String> languages = List.of(
         "Java", "JavaScript", "C++", "Python", "C#"
     );
     
-    private Map<String, List<String>> expertise = Map.of(
-        "backend", Arrays.asList("Spring Boot", "Spring WebFlux", 
-                                 "Spring Security", "Hibernate"),
-        "databases", Arrays.asList("Neo4j", "PostgreSQL", "MySQL", 
-                                   "MongoDB", "Redis"),
-        "architecture", Arrays.asList("Microservices", "Event-Driven", 
-                                      "RESTful APIs", "GraphQL"),
-        "frontend", Arrays.asList("JavaScript", "HTML5", "CSS3", 
-                                  "Bootstrap", "Tailwind CSS"),
-        "messaging", Arrays.asList("Kafka"),
-        "cloud", Arrays.asList("Firebase")
+    private final Map<String, List<String>> expertise = Map.of(
+        "backend", List.of("Spring Boot", "Spring WebFlux", "Spring Security", "Hibernate"),
+        "databases", List.of("Neo4j", "PostgreSQL", "MySQL", "MongoDB", "Redis"),
+        "architecture", List.of("Microservices", "Event-Driven", "RESTful APIs", "GraphQL"),
+        "frontend", List.of("JavaScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"),
+        "messaging", List.of("Kafka"),
+        "cloud", List.of("Firebase")
     );
     
-    private String currentFocus = "Building reactive microservices 🚀";
-    private String funFact = "I debug with coffee ☕ and determination 💪";
+    @Override
+    public String getCurrentFocus() {
+        return "Building reactive microservices 🚀";
+    }
+    
+    @Override
+    public String getFunFact() {
+        return "I debug with coffee ☕ and determination 💪";
+    }
+    
+    @PostConstruct
+    public void init() {
+        log.info("Developer profile initialized successfully!");
+    }
 }
 ```
 
@@ -55,12 +71,18 @@ public class Developer {
 
 ### 🎯 Current Mission
 
-```
-🔭  Building      →  Reactive microservices with Spring WebFlux & Neo4j
-🌱  Learning      →  Advanced system design & distributed architectures
-💡  Exploring     →  Event-driven systems with Kafka
-🎨  Crafting      →  Clean & scalable backend solutions
-💬  Ask me about  →  Java, Spring Boot, Databases, System Design
+```yaml
+workflow:
+  building:
+    - "Reactive microservices with Spring WebFlux & Neo4j"
+  learning:
+    - "Advanced system design & distributed architectures"
+  exploring:
+    - "Event-driven systems with Kafka"
+  crafting:
+    - "Clean & scalable backend solutions"
+  expertise:
+    - "Java, Spring Boot, Databases, System Design"
 ```
 
 </div>
@@ -71,33 +93,121 @@ public class Developer {
 
 <div align="center">
 
-### 💻 Backend Development
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Backend & Architecture
+```yaml
+backend:
+  languages:
+    - Java (Primary)
+  frameworks:
+    - Spring Boot
+    - Spring WebFlux
+    - Spring Security
+    - Hibernate
+  patterns:
+    - Microservices
+    - Event-Driven
+    - RESTful APIs
+    - GraphQL
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 💾 Data Management
+```yaml
+databases:
+  relational:
+    - PostgreSQL
+    - MySQL
+  nosql:
+    - MongoDB
+    - Neo4j (Graph DB)
+  cache:
+    - Redis
+  messaging:
+    - Apache Kafka
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Frontend Technologies
+```yaml
+frontend:
+  languages:
+    - JavaScript
+    - HTML5
+    - CSS3
+  frameworks:
+    - Bootstrap
+    - Tailwind CSS
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ DevOps & Tools
+```yaml
+devops:
+  containerization:
+    - Docker
+  vcs:
+    - Git
+  cloud:
+    - Firebase
+  build:
+    - Maven
+  ides:
+    - IntelliJ IDEA
+    - VS Code
+  testing:
+    - Postman
+  design:
+    - Figma
+```
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📚 Complete Tech Stack (Click to expand)</b></summary>
+
+<br/>
+
+#### Backend Development
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-### 💾 Databases
+#### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### 🏗️ Architecture & APIs
+#### Architecture & APIs
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-1572B6?style=for-the-badge&logo=moleculer&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 
-### 🎨 Frontend Development
+#### Frontend Development
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 🛠️ DevOps & Tools
+#### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
@@ -107,11 +217,13 @@ public class Developer {
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-### 📚 Programming Languages
+#### Programming Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</details>
 
 </div>
 
@@ -120,21 +232,36 @@ public class Developer {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=SKgain&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
-</div>
 
-<br/>
+<table>
+<tr>
+<td width="50%">
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" alt="Top Languages"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SKgain&theme=github_dark&utcOffset=6" alt="Productive Time"/>
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=SKgain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats"/>
 
-<br/>
+</td>
+<td width="50%">
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SKgain&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="100%" alt="GitHub Streak"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SKgain&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" width="100%" alt="Top Languages"/>
+
+</td>
+<td width="50%">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SKgain&theme=github_dark&utcOffset=6" width="100%" alt="Productive Time"/>
+
+</td>
+</tr>
+</table>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SKgain&custom_title=Contribution%20Activity%20Graph&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
+
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -152,51 +279,60 @@ public class Developer {
 <div align="center">
 
 <table>
-  <thead>
-    <tr>
-      <th>Platform</th>
-      <th>Profile</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="30"/>
-        <br><strong>Codeforces</strong>
-      </td>
-      <td align="center">
-        <a href="https://codeforces.com/profile/saikatgain630">saikatgain630</a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Active-00D26A?style=flat-square&logo=checkmarx&logoColor=white"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" width="30"/>
-        <br><strong>LeetCode</strong>
-      </td>
-      <td align="center">
-        <a href="https://leetcode.com/u/skgain/">skgain</a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Solving-FFA116?style=flat-square&logo=leetcode&logoColor=white"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/hackerrank.png" width="30"/>
-        <br><strong>HackerRank</strong>
-      </td>
-      <td align="center">
-        <a href="https://www.hackerrank.com/profile/saikatgain_cse">saikatgain_cse</a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Active-00EA64?style=flat-square&logo=hackerrank&logoColor=white"/>
-      </td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th width="25%">Platform</th>
+<th width="50%">Profile</th>
+<th width="25%">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="32" height="32"/>
+<br/>
+<strong>Codeforces</strong>
+</td>
+<td align="center">
+<a href="https://codeforces.com/profile/saikatgain630">
+<code>saikatgain630</code>
+</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Active-00D26A?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" width="32" height="32"/>
+<br/>
+<strong>LeetCode</strong>
+</td>
+<td align="center">
+<a href="https://leetcode.com/u/skgain/">
+<code>skgain</code>
+</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/hackerrank.png" width="32" height="32"/>
+<br/>
+<strong>HackerRank</strong>
+</td>
+<td align="center">
+<a href="https://www.hackerrank.com/profile/saikatgain_cse">
+<code>saikatgain_cse</code>
+</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Active-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</td>
+</tr>
+</tbody>
 </table>
 
 </div>
@@ -210,27 +346,31 @@ public class Developer {
 ### Let's Collaborate and Build Something Amazing! 🚀
 
 <a href="https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:saikatgain.cse@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://www.facebook.com/Saikat.Gain.09/">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
 </a>
 <a href="https://github.com/SKgain">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <br/><br/>
 
-### 💡 Always Open For
-
-```
-💼  Exciting Project Collaborations
-🤝  Open Source Contributions
-💬  Tech Discussions & Knowledge Sharing
-🎯  New Opportunities & Challenges
+```json
+{
+  "openFor": {
+    "projects": "Exciting collaborations",
+    "openSource": "Meaningful contributions",
+    "discussions": "Tech & system design",
+    "opportunities": "Full-time & freelance"
+  },
+  "response_time": "< 24 hours",
+  "availability": "Always open to connect! 👋"
+}
 ```
 
 </div>

@@ -57,7 +57,6 @@ public class Developer {
 🔭 **Building** → Reactive microservices with Spring WebFlux & Neo4j  
 🌱 **Learning** → Advanced system design & distributed architectures  
 💡 **Exploring** → Event-driven systems with Kafka  
-🎨 **Creating** → Modern web experiences with React  
 💬 **Ask me about** → Java, Spring Boot, Databases, System Design  
 
 </div>

@@ -73,16 +73,16 @@ public class SaikatKumarGain implements Developer, ProblemSolver {
 
 ```yaml
 workflow:
-  building:
-    - "Reactive microservices with Spring WebFlux & Neo4j"
-  learning:
-    - "Advanced system design & distributed architectures"
-  exploring:
-    - "Event-driven systems with Kafka"
-  crafting:
-    - "Clean & scalable backend solutions"
-  expertise:
-    - "Java, Spring Boot, Databases, System Design"
+ building:
+  "Reactive microservices with Spring WebFlux & Neo4j"
+ learning:
+  "Advanced system design & distributed architectures"
+ exploring:
+  "Event-driven systems with Kafka"
+ crafting:
+  "Clean & scalable backend solutions"
+ expertise:
+  "Java, Spring Boot, Databases, System Design"
 ```
 
 </div>

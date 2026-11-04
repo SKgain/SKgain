@@ -3,43 +3,24 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Saikat Kumar Gain, backend engineer. Animated diagram of events flowing through an API gateway, Kafka, a WebFlux service and Neo4j." src="assets/hero-dark.svg" width="100%">
+  <img alt="Saikat Kumar Gain, backend engineer. An event travels through an API gateway, Kafka, a WebFlux service and Neo4j. Now at Dhrubok Infotech, Dhaka." src="assets/hero-dark.svg" width="100%">
 </picture>
 
 <p>
-  <a href="https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=linkedin&logoColor=6DB33F"></a>
-  <a href="mailto:saikatgain.cse@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=6DB33F"></a>
-  <a href="https://leetcode.com/u/skgain/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-161B22?style=flat-square&logo=leetcode&logoColor=6DB33F"></a>
-  <a href="https://codeforces.com/profile/saikatgain630"><img alt="Codeforces" src="https://img.shields.io/badge/Codeforces-161B22?style=flat-square&logo=codeforces&logoColor=6DB33F"></a>
+  <a href="https://saikatgain.site"><img alt="Portfolio: saikatgain.site" src="assets/btn-portfolio.svg" height="40"></a>
+  <a href="https://www.linkedin.com/in/saikat-kumar-gain-b059422b0/"><img alt="LinkedIn" src="assets/btn-linkedin.svg" height="40"></a>
+  <a href="mailto:saikatgain.cse@gmail.com"><img alt="Email" src="assets/btn-email.svg" height="40"></a>
+  <a href="https://leetcode.com/u/skgain/"><img alt="LeetCode" src="assets/btn-leetcode.svg" height="40"></a>
+  <a href="https://codeforces.com/profile/saikatgain630"><img alt="Codeforces" src="assets/btn-codeforces.svg" height="40"></a>
 </p>
 
 I build non-blocking microservices with **Spring WebFlux**, **Kafka** and **Neo4j** at **Dhrubok Infotech Service Ltd**. I care about event-driven architecture, clean API contracts, and code that keeps working under load.
 
-## Stack
-
-**Core** &nbsp;
-![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=6DB33F)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-161B22?style=flat-square&logo=springboot&logoColor=6DB33F)
-![Spring WebFlux](https://img.shields.io/badge/WebFlux-161B22?style=flat-square&logo=spring&logoColor=6DB33F)
-![Spring Security](https://img.shields.io/badge/Spring_Security-161B22?style=flat-square&logo=springsecurity&logoColor=6DB33F)
-![Hibernate](https://img.shields.io/badge/Hibernate-161B22?style=flat-square&logo=hibernate&logoColor=6DB33F)
-
-**Data** &nbsp;
-![Neo4j](https://img.shields.io/badge/Neo4j-161B22?style=flat-square&logo=neo4j&logoColor=6DB33F)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=6DB33F)
-![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=6DB33F)
-![Redis](https://img.shields.io/badge/Redis-161B22?style=flat-square&logo=redis&logoColor=6DB33F)
-
-**Events** &nbsp;
-![Kafka](https://img.shields.io/badge/Apache_Kafka-161B22?style=flat-square&logo=apachekafka&logoColor=6DB33F)
-![Firebase](https://img.shields.io/badge/Firebase-161B22?style=flat-square&logo=firebase&logoColor=6DB33F)
-
-**Tooling** &nbsp;
-![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=6DB33F)
-![Maven](https://img.shields.io/badge/Maven-161B22?style=flat-square&logo=apachemaven&logoColor=6DB33F)
-![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=6DB33F)
-![Postman](https://img.shields.io/badge/Postman-161B22?style=flat-square&logo=postman&logoColor=6DB33F)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-161B22?style=flat-square&logo=intellijidea&logoColor=6DB33F)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Tech stack. Language and framework: Java, Spring Boot, Spring WebFlux, Spring Security, Hibernate. Data: Neo4j, PostgreSQL, MySQL, Redis. Messaging: Apache Kafka, Firebase. Tooling: Docker, Maven, Git, Postman, IntelliJ IDEA." src="assets/stack-dark.svg" width="100%">
+</picture>
 
 ## Selected work
 

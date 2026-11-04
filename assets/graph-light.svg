@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610" role="img" aria-labelledby="gt gd">
+  <title id="gt">Saikat Kumar Gain as a Neo4j graph</title>
+  <desc id="gd">Saikat works at Dhrubok, which uses WebFlux, Neo4j and Kafka. He built Quickart, TaskMaster and a BanglaBERT API, and published four papers: Bangla semantics, liver disease, stroke prediction and ancient Bengal coinage.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8C959F"/></marker>
+  </defs>
+  <style>
+    .panel { fill: #FFFFFF; stroke: #D0D7DE; }
+    .bar { fill: #F6F8FA; }
+    .rule { stroke: #D0D7DE; }
+    .q { font: 500 14px ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; fill: #1F2328; }
+    .kw { fill: #2F7D1F; }
+    .edge { stroke: #8C959F; stroke-width: 1.5; fill: none; }
+    .rel { font: 500 9.5px ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; fill: #59636E; }
+    .relbg { fill: #FFFFFF; }
+    .cap { font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #0D1117; }
+    .on-dark { fill: #FFFFFF; }
+    .cap-big { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #0D1117; }
+    .legend { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #59636E; }
+    .ring { fill: none; stroke: #2F7D1F; stroke-width: 2; }
+    .node { transform-box: fill-box; transform-origin: center; animation: pop .5s cubic-bezier(.2,.8,.3,1.2) both; }
+    .link { animation: fade .5s ease-out both; }
+    .edge.draw { stroke-dasharray: 1; animation: draw .6s ease-out both; }
+    .ring { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-out 2.4s infinite both; }
+    @keyframes pop { from { opacity: 0; transform: scale(.6); } to { opacity: 1; transform: scale(1); } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0% { opacity: .7; transform: scale(1); } 80%, 100% { opacity: 0; transform: scale(1.45); } }
+    @media (prefers-reduced-motion: reduce) { .node, .link, .edge.draw, .ring { animation: none; } .ring { opacity: 0; } }
+  </style>
+  <rect class="panel" x="1" y="1" width="898" height="608" rx="16"/>
+  <path class="bar" d="M1 17 a16 16 0 0 1 16 -16 H883 a16 16 0 0 1 16 16 V48 H1 z"/>
+  <line class="rule" x1="1" y1="48" x2="899" y2="48"/>
+  <text class="q" x="28" y="30"><tspan class="kw">MATCH</tspan> (s:Engineer {name: "Saikat"})-[r]-&gt;(n) <tspan class="kw">RETURN</tspan> s, r, n</text>
+  <g>
+    <g class="link" style="animation-delay:0.52s">
+      <line class="edge draw" pathLength="1" style="animation-delay:0.52s" x1="417.4" y1="263.5" x2="317.9" y2="182.7" marker-end="url(#arrow)"/>
+      <g transform="translate(367.7 223.1) rotate(39.1)"><rect class="relbg" x="-27.6" y="-7" width="55.2" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">WORKS_AT</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.48s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.48s" x1="257.5" y1="150.1" x2="155.6" y2="119.3" marker-end="url(#arrow)"/>
+      <g transform="translate(206.5 134.7) rotate(16.9)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.60s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.60s" x1="261.3" y1="178.2" x2="167.0" y2="237.9" marker-end="url(#arrow)"/>
+      <g transform="translate(214.2 208.0) rotate(-32.3)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.72s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.72s" x1="269.5" y1="187.1" x2="139.3" y2="359.5" marker-end="url(#arrow)"/>
+      <g transform="translate(204.4 273.3) rotate(-52.9)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:0.64s">
+      <line class="edge draw" pathLength="1" style="animation-delay:0.64s" x1="413.4" y1="310.6" x2="323.1" y2="361.4" marker-end="url(#arrow)"/>
+      <g transform="translate(368.3 336.0) rotate(-29.4)"><rect class="relbg" x="-18.8" y="-7" width="37.5" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">BUILT</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.72s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.72s" x1="254.0" y1="381.1" x2="152.0" y2="384.1" marker-end="url(#arrow)"/>
+      <g transform="translate(203.0 382.6) rotate(-1.7)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.60s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.60s" x1="262.3" y1="357.0" x2="164.6" y2="275.5" marker-end="url(#arrow)"/>
+      <g transform="translate(213.5 316.2) rotate(39.8)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:0.76s">
+      <line class="edge draw" pathLength="1" style="animation-delay:0.76s" x1="427.1" y1="325.2" x2="331.8" y2="471.5" marker-end="url(#arrow)"/>
+      <g transform="translate(379.5 398.3) rotate(-56.9)"><rect class="relbg" x="-18.8" y="-7" width="37.5" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">BUILT</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.84s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.84s" x1="272.0" y1="506.2" x2="186.0" y2="508.9" marker-end="url(#arrow)"/>
+      <g transform="translate(229.0 507.5) rotate(-1.8)"><rect class="relbg" x="-15.8" y="-7" width="31.6" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">USES</text></g>
+    </g>
+    <g class="link" style="animation-delay:0.88s">
+      <line class="edge draw" pathLength="1" style="animation-delay:0.88s" x1="471.9" y1="325.8" x2="538.1" y2="434.2" marker-end="url(#arrow)"/>
+      <g transform="translate(505.0 380.0) rotate(58.6)"><rect class="relbg" x="-18.8" y="-7" width="37.5" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">BUILT</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.36s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.36s" x1="599.9" y1="467.8" x2="700.1" y2="462.2" marker-end="url(#arrow)"/>
+      <g transform="translate(650.0 465.0) rotate(-3.2)"><rect class="relbg" x="-33.5" y="-7" width="67.0" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">IMPLEMENTS</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.36s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.36s" x1="486.2" y1="311.2" x2="705.5" y2="439.8" marker-end="url(#arrow)"/>
+      <g transform="translate(595.9 375.5) rotate(30.4)"><rect class="relbg" x="-30.6" y="-7" width="61.1" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">PUBLISHED</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.24s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.24s" x1="491.9" y1="292.5" x2="752.1" y2="307.8" marker-end="url(#arrow)"/>
+      <g transform="translate(622.0 300.1) rotate(3.4)"><rect class="relbg" x="-30.6" y="-7" width="61.1" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">PUBLISHED</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.12s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.12s" x1="488.2" y1="272.5" x2="708.6" y2="171.6" marker-end="url(#arrow)"/>
+      <g transform="translate(598.4 222.1) rotate(-24.6)"><rect class="relbg" x="-30.6" y="-7" width="61.1" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">PUBLISHED</text></g>
+    </g>
+    <g class="link" style="animation-delay:1.00s">
+      <line class="edge draw" pathLength="1" style="animation-delay:1.00s" x1="474.7" y1="256.0" x2="546.5" y2="157.3" marker-end="url(#arrow)"/>
+      <g transform="translate(510.6 206.7) rotate(-54.0)"><rect class="relbg" x="-30.6" y="-7" width="61.1" height="13" rx="3"/><text class="rel" text-anchor="middle" y="3.5">PUBLISHED</text></g>
+    </g>
+  </g>
+  <g class="node" style="animation-delay:0.15s">
+    <circle class="ring" cx="450" cy="290" r="42"/>
+    <circle cx="450" cy="290" r="42" fill="#6DB33F" stroke="#4E8A2A" stroke-width="2"/>
+    <text class="cap-big" x="450" y="294" text-anchor="middle">Saikat</text>
+  </g>
+  <g class="node" style="animation-delay:0.27s">
+    <circle cx="290" cy="160" r="34" fill="#569480" stroke="#447666" stroke-width="2"/>
+    <text class="cap on-dark" x="290" y="164" text-anchor="middle">Dhrubok</text>
+  </g>
+  <g class="node" style="animation-delay:0.39s">
+    <circle cx="290" cy="380" r="36" fill="#4C8EDA" stroke="#2870C2" stroke-width="2"/>
+    <text class="cap on-dark" x="290" y="384" text-anchor="middle">Quickart</text>
+  </g>
+  <g class="node" style="animation-delay:0.51s">
+    <circle cx="310" cy="505" r="38" fill="#4C8EDA" stroke="#2870C2" stroke-width="2"/>
+    <text class="cap on-dark" x="310" y="509" text-anchor="middle">TaskMaster</text>
+  </g>
+  <g class="node" style="animation-delay:0.63s">
+    <circle cx="560" cy="470" r="40" fill="#4C8EDA" stroke="#2870C2" stroke-width="2"/>
+    <text class="cap on-dark" x="560" y="467" text-anchor="middle">BanglaBERT</text>
+    <text class="cap on-dark" x="560" y="481" text-anchor="middle">API</text>
+  </g>
+  <g class="node" style="animation-delay:0.75s">
+    <circle cx="570" cy="125" r="38" fill="#ECB5C9" stroke="#DA7298" stroke-width="2"/>
+    <text class="cap" x="570" y="122" text-anchor="middle">Bengal</text>
+    <text class="cap" x="570" y="136" text-anchor="middle">coinage</text>
+  </g>
+  <g class="node" style="animation-delay:0.87s">
+    <circle cx="745" cy="155" r="38" fill="#ECB5C9" stroke="#DA7298" stroke-width="2"/>
+    <text class="cap" x="745" y="152" text-anchor="middle">Stroke</text>
+    <text class="cap" x="745" y="166" text-anchor="middle">prediction</text>
+  </g>
+  <g class="node" style="animation-delay:0.99s">
+    <circle cx="790" cy="310" r="36" fill="#ECB5C9" stroke="#DA7298" stroke-width="2"/>
+    <text class="cap" x="790" y="307" text-anchor="middle">Liver</text>
+    <text class="cap" x="790" y="321" text-anchor="middle">disease</text>
+  </g>
+  <g class="node" style="animation-delay:1.11s">
+    <circle cx="740" cy="460" r="38" fill="#ECB5C9" stroke="#DA7298" stroke-width="2"/>
+    <text class="cap" x="740" y="457" text-anchor="middle">Bangla</text>
+    <text class="cap" x="740" y="471" text-anchor="middle">semantics</text>
+  </g>
+  <g class="node" style="animation-delay:1.23s">
+    <circle cx="125" cy="110" r="30" fill="#FFC454" stroke="#D7A013" stroke-width="2"/>
+    <text class="cap" x="125" y="114" text-anchor="middle">WebFlux</text>
+  </g>
+  <g class="node" style="animation-delay:1.35s">
+    <circle cx="140" cy="255" r="30" fill="#FFC454" stroke="#D7A013" stroke-width="2"/>
+    <text class="cap" x="140" y="259" text-anchor="middle">Neo4j</text>
+  </g>
+  <g class="node" style="animation-delay:1.47s">
+    <circle cx="120" cy="385" r="30" fill="#FFC454" stroke="#D7A013" stroke-width="2"/>
+    <text class="cap" x="120" y="389" text-anchor="middle">Kafka</text>
+  </g>
+  <g class="node" style="animation-delay:1.59s">
+    <circle cx="150" cy="510" r="34" fill="#FFC454" stroke="#D7A013" stroke-width="2"/>
+    <text class="cap" x="150" y="514" text-anchor="middle">PostgreSQL</text>
+  </g>
+  <circle cx="34" cy="584" r="6" fill="#6DB33F" stroke="#4E8A2A"/>
+  <text class="legend" x="46" y="588">Engineer</text>
+  <circle cx="130" cy="584" r="6" fill="#569480" stroke="#447666"/>
+  <text class="legend" x="142" y="588">Company</text>
+  <circle cx="219" cy="584" r="6" fill="#4C8EDA" stroke="#2870C2"/>
+  <text class="legend" x="231" y="588">Project</text>
+  <circle cx="308" cy="584" r="6" fill="#FFC454" stroke="#D7A013"/>
+  <text class="legend" x="320" y="588">Technology</text>
+  <circle cx="418" cy="584" r="6" fill="#ECB5C9" stroke="#DA7298"/>
+  <text class="legend" x="430" y="588">Paper</text>
+</svg>

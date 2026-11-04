@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">Saikat Kumar Gain, backend engineer</title>
+  <desc id="d">Events flowing through an API gateway, Kafka, a WebFlux service and Neo4j.</desc>
+  <style>
+    .panel { fill: #FFFFFF; stroke: #D0D7DE; }
+    .name { font: 700 40px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #1F2328; }
+    .role { font: 400 18px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #59636E; }
+    .code { font: 500 15px ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; fill: #2F7D1F; }
+    .label { font: 500 14px ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; fill: #1F2328; }
+    .wire { stroke: #D0D7DE; stroke-width: 2; }
+    .node { fill: #F6F8FA; stroke: #D0D7DE; stroke-width: 1.5; }
+    .node-hot { fill: #F6F8FA; stroke: #2F7D1F; stroke-width: 1.5; }
+    .event { fill: #2F7D1F; }
+    .cursor { fill: #2F7D1F; }
+
+    .event { animation: flow 3.6s cubic-bezier(.45,0,.55,1) infinite; opacity: 0; }
+    .e2 { animation-delay: 1.2s; }
+    .e3 { animation-delay: 2.4s; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+
+    @keyframes flow {
+      0%   { transform: translateX(0);     opacity: 0; }
+      8%   { opacity: 1; }
+      92%  { opacity: 1; }
+      100% { transform: translateX(660px); opacity: 0; }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .event, .cursor { animation: none; }
+      .event { opacity: 1; }
+      .e2 { transform: translateX(220px); }
+      .e3 { transform: translateX(440px); }
+    }
+  </style>
+
+  <rect class="panel" x="1" y="1" width="898" height="298" rx="16"/>
+
+  <text class="name" x="48" y="82">Saikat Kumar Gain</text>
+  <text class="role" x="48" y="114">Backend engineer building reactive, event-driven systems</text>
+  <text class="code" x="48" y="152">Flux.from(events).flatMap(service::handle)</text>
+  <rect class="cursor" x="436" y="139" width="9" height="17"/>
+
+  <!-- pipeline -->
+  <line class="wire" x1="120" y1="232" x2="780" y2="232"/>
+
+  <rect class="node" x="48" y="208" width="144" height="48" rx="10"/>
+  <rect class="node-hot" x="268" y="208" width="144" height="48" rx="10"/>
+  <rect class="node" x="488" y="208" width="144" height="48" rx="10"/>
+  <rect class="node" x="708" y="208" width="144" height="48" rx="10"/>
+
+  <text class="label" x="120" y="237" text-anchor="middle">Gateway</text>
+  <text class="label" x="340" y="237" text-anchor="middle">Kafka</text>
+  <text class="label" x="560" y="237" text-anchor="middle">WebFlux</text>
+  <text class="label" x="780" y="237" text-anchor="middle">Neo4j</text>
+
+  <circle class="event e1" cx="120" cy="200" r="5"/>
+  <circle class="event e2" cx="120" cy="200" r="5"/>
+  <circle class="event e3" cx="120" cy="200" r="5"/>
+</svg>

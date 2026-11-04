@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="st sd">
+  <title id="st">Tech stack</title>
+  <desc id="sd">Language and framework: Java, Spring Boot, Spring WebFlux, Spring Security, Hibernate. Data: Neo4j, PostgreSQL, MySQL, Redis. Messaging: Apache Kafka, Firebase. Tooling: Docker, Maven, Git, Postman, IntelliJ IDEA. Core: Java, Spring WebFlux, Neo4j, Apache Kafka.</desc>
+  <style>
+    .panel { fill: #0D1117; stroke: #30363D; }
+    .rule { stroke: #30363D; }
+    .layer { font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #E6EDF3; }
+    .key { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #8B949E; }
+    .chip { fill: #161B22; stroke: #30363D; }
+    .chip-core { fill: #1B2A17; stroke: #6DB33F; }
+    .t { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; fill: #E6EDF3; }
+    .dot { fill: #6DB33F; }
+    .row { animation: rise .5s cubic-bezier(.2,.8,.3,1) both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
+  </style>
+  <rect class="panel" x="1" y="1" width="898" height="298" rx="16"/>
+  <text class="layer" x="32" y="38">Stack</text>
+  <circle class="dot" cx="730" cy="33" r="5"/>
+  <text class="key" x="742" y="38">daily core tools</text>
+  <line class="rule" x1="32" y1="64" x2="868" y2="64"/>
+  <g class="row" style="animation-delay:0.10s">
+    <text class="key" x="32" y="97">Language and framework</text>
+    <rect class="chip-core" x="220" y="76" width="71" height="32" rx="8"/>
+    <circle class="dot" cx="235" cy="92" r="4"/>
+    <text class="t" x="246" y="97">Java</text>
+    <rect class="chip" x="301.36" y="76" width="103" height="32" rx="8"/>
+    <text class="t" x="315" y="97">Spring Boot</text>
+    <rect class="chip-core" x="414.68" y="76" width="139" height="32" rx="8"/>
+    <circle class="dot" cx="429.68" cy="92" r="4"/>
+    <text class="t" x="441" y="97">Spring WebFlux</text>
+    <rect class="chip" x="563.52" y="76" width="131" height="32" rx="8"/>
+    <text class="t" x="578" y="97">Spring Security</text>
+    <rect class="chip" x="704.56" y="76" width="91" height="32" rx="8"/>
+    <text class="t" x="719" y="97">Hibernate</text>
+  </g>
+  <line class="rule" x1="32" y1="120" x2="868" y2="120"/>
+  <g class="row" style="animation-delay:0.22s">
+    <text class="key" x="32" y="153">Data</text>
+    <rect class="chip-core" x="220" y="132" width="76" height="32" rx="8"/>
+    <circle class="dot" cx="235" cy="148" r="4"/>
+    <text class="t" x="246" y="153">Neo4j</text>
+    <rect class="chip" x="305.56" y="132" width="103" height="32" rx="8"/>
+    <text class="t" x="320" y="153">PostgreSQL</text>
+    <rect class="chip" x="418.32" y="132" width="67" height="32" rx="8"/>
+    <text class="t" x="432" y="153">MySQL</text>
+    <rect class="chip" x="495.52" y="132" width="64" height="32" rx="8"/>
+    <text class="t" x="510" y="153">Redis</text>
+  </g>
+  <line class="rule" x1="32" y1="176" x2="868" y2="176"/>
+  <g class="row" style="animation-delay:0.34s">
+    <text class="key" x="32" y="209">Messaging</text>
+    <rect class="chip-core" x="220" y="188" width="127" height="32" rx="8"/>
+    <circle class="dot" cx="235" cy="204" r="4"/>
+    <text class="t" x="246" y="209">Apache Kafka</text>
+    <rect class="chip" x="356.8" y="188" width="87" height="32" rx="8"/>
+    <text class="t" x="371" y="209">Firebase</text>
+  </g>
+  <line class="rule" x1="32" y1="232" x2="868" y2="232"/>
+  <g class="row" style="animation-delay:0.46s">
+    <text class="key" x="32" y="265">Tooling</text>
+    <rect class="chip" x="220" y="244" width="75" height="32" rx="8"/>
+    <text class="t" x="234" y="265">Docker</text>
+    <rect class="chip" x="305.04" y="244" width="67" height="32" rx="8"/>
+    <text class="t" x="319" y="265">Maven</text>
+    <rect class="chip" x="382.24" y="244" width="44" height="32" rx="8"/>
+    <text class="t" x="396" y="265">Git</text>
+    <rect class="chip" x="436.48" y="244" width="79" height="32" rx="8"/>
+    <text class="t" x="450" y="265">Postman</text>
+    <rect class="chip" x="525.72" y="244" width="104" height="32" rx="8"/>
+    <text class="t" x="540" y="265">IntelliJ IDEA</text>
+  </g>
+</svg>

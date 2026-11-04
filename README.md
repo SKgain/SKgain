@@ -73,16 +73,17 @@ My thesis: Spring Boot serves a fine-tuned BanglaBERT model that rates Bangla se
 
 | Paper | Venue |
 |---|---|
+| Ancient Bengal Numismatic Dataset of Vanga Janapada, Gauda, Samatata, and Harikela Coinage | Q1 journal |
 | Bangla Semantic Analysis Using a Transformer-Based BanglaBERT Model | Conference |
 | Explainable Stacking Machine Learning Ensemble Model for Liver Disease Prediction | Conference |
 | Stroke Prediction Using Ensemble Machine and Deep Learning Models | Q2 journal |
 
-## Activity
+## Everything, connected
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SKgain/SKgain/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SKgain/SKgain/output/snake-light.svg">
-  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/SKgain/SKgain/output/snake-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/graph-light.svg">
+  <img alt="Neo4j-style graph: Saikat works at Dhrubok (WebFlux, Neo4j, Kafka), built Quickart, TaskMaster and a BanglaBERT API, and published four papers." src="assets/graph-dark.svg" width="100%">
 </picture>
 
 <sub>BSc in Computer Science and Engineering, IUBAT. Based in Dhaka, Bangladesh. Reach me at saikatgain.cse@gmail.com.</sub>
